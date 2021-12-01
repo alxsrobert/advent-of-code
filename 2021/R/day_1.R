@@ -1,6 +1,6 @@
 library(dplyr)
 if(Sys.info()[["user"]] %in% c("eidearob", "EIDEAROB"))
-  setwd("C:/Users/eidearob/Documents/GitHub/adventofcode/")
+  setwd("C:/Users/eidearob/Documents/GitHub/advent-of-code/")
 dt <- read.table("2021/Input/1/data.txt")
 # First part: number of times the difference is above 0
 (diff(dt[,1]) > 0) %>% sum %>% print
