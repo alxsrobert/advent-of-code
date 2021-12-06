@@ -55,5 +55,5 @@ part2 <- function(file.path){
   return(length(unique(all_coords[duplicated(all_coords)])))
 }
 file.path <- "2021/Input/5/data.txt"
-part1(file.path) 
-part2(file.path) 
+print(part1(file.path))
+print(part2(file.path))
